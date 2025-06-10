@@ -34,10 +34,10 @@
     <section id="project" class="section">
       <h2>Project Overview: Cybersecurity Training Portal</h2>
       <p>
-        This project outlines a web-based cybersecurity training portal built for employees across departments in medium to large organizations. The system delivers short, engaging training modules that teach users how to avoid common threats like phishing scams, weak passwords, and insecure browsing practices.
+        This project focuses on building a cybersecurity training website designed for employees in medium to large companies. The goal is to help people avoid common digital risks—like phishing emails or using weak passwords—through short, interactive lessons.
       </p>
       <p>
-        The platform uses role-based learning paths tailored to departments such as HR, finance, and IT. Progress tracking, automated reminders, and interactive quizzes help reinforce key lessons. The goal is to create a secure, scalable environment where employees improve digital habits without feeling overwhelmed.
+        Each employee gets a personalized learning path based on their department. IT might learn about firewall basics, while HR gets training on spotting social engineering. It’s meant to be quick, useful, and secure. Progress is tracked, quizzes are included, and reminders keep learners on track.
       </p>
     </section>
 
@@ -45,10 +45,13 @@
       <h2>Systems Design, Engineering & Organization</h2>
       <img src="images/system-design.jpg" alt="System design diagram" />
       <p>
-        The architecture is built with modular services: user authentication, content delivery, and analytics each run independently. This keeps the platform easy to maintain and scale. Infrastructure as code ensures that test and production environments match, reducing errors during updates.
+        Systems design is about how everything behind the scenes works together—like the engine inside a car. It includes how data flows, how code is organized, and how teams manage it all.
       </p>
       <p>
-        Monitoring tools track uptime, usage, and bottlenecks. If one module fails, others stay online. A DevOps pipeline automatically builds, tests, and deploys new versions, keeping updates frequent and safe. Small, focused teams own each module, from development through long-term maintenance.
+        For this training platform, services are broken into smaller parts: one handles logins, another delivers content, another tracks analytics. This makes updates easier and reduces the risk of the whole site crashing. DevOps tools automatically test and deploy updates safely and quickly.
+      </p>
+      <p>
+        We also use monitoring tools to track what’s working and what’s not. This helps us fix problems early. The system is built with future growth in mind so we can add more content or support more users without slowing down.
       </p>
     </section>
 
@@ -56,10 +59,13 @@
       <h2>Content & Information Architecture</h2>
       <img src="images/information-architecture.jpg" alt="Information architecture illustration" />
       <p>
-        Clear information architecture keeps users engaged and confident. Courses are grouped by role and difficulty. New content is tagged with metadata so filters and search tools quickly find what users need.
+        Information architecture is how the content is organized and labeled so people can find what they need without getting lost. It’s like having a well-organized library with signs and clear labels.
       </p>
       <p>
-        Key actions—starting a course, resuming progress, or viewing scores—are always one click away. Pages follow a consistent pattern so employees know where to look, even when topics vary. Regular audits remove outdated content and make room for updated material.
+        The site’s training modules are grouped by topic, difficulty, and role. So a beginner in HR sees different content than an advanced IT user. Tags, search tools, and filters help users find lessons fast.
+      </p>
+      <p>
+        All key actions—like starting a course, checking scores, or resuming training—are easy to access. This keeps users focused on learning instead of figuring out how to use the site. We also remove old content regularly so the platform always feels fresh and relevant.
       </p>
     </section>
 
@@ -67,10 +73,13 @@
       <h2>User Experience & Visual Design</h2>
       <img src="images/ux-design.jpg" alt="UX wireframe sketch" />
       <p>
-        The platform is designed to feel simple from day one. First-time users can sign in, see their assigned courses, and start learning in under a minute. Interfaces are mobile-friendly, with readable fonts and touch-friendly buttons.
+        User Experience (UX) is how the site feels to use. Visual design is how it looks. Together, they make sure users have a smooth, pleasant experience.
       </p>
       <p>
-        High-contrast color schemes support low-vision users. Icons, progress bars, and clear labels make navigation feel natural. Before major updates, users test prototypes and give feedback to improve clarity and usability.
+        This training platform uses a clean layout, easy-to-read fonts, and buttons that work well on both desktop and mobile. First-time users can log in and begin learning within seconds.
+      </p>
+      <p>
+        We also follow accessibility best practices—like using high-contrast colors for visibility and touch-friendly design. Before launching new features, we ask real users to try them and give feedback to help us improve.
       </p>
     </section>
 
@@ -78,10 +87,13 @@
       <h2>Security & Ethics</h2>
       <img src="images/security.jpg" alt="Security shield graphic" />
       <p>
-        Security and ethics are core to the platform. All accounts use strong, encrypted authentication. Sensitive data like quiz scores and training progress are stored securely, never shared, and automatically deleted after a retention period.
+        Security and ethics make sure users are protected and treated fairly. It’s about doing what’s right, not just what’s legal.
       </p>
       <p>
-        Users are only tracked for completion metrics—never behavior beyond what’s necessary for learning. All tracking is transparent. Features are reviewed with one question in mind: <em>Would users feel comfortable if they saw how this works?</em> If not, it doesn’t ship.
+        This platform uses secure logins, encrypted data, and smart rules about what can be seen or shared. We only collect what’s needed to improve learning. Nothing extra. All data is deleted after a set time, and users know what’s being tracked.
+      </p>
+      <p>
+        Before we add any new feature, we ask: “Would users be okay with this?” If the answer isn’t a clear yes, we don’t add it. Trust is part of the product.
       </p>
     </section>
 
