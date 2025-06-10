@@ -1,67 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Juan's PNW Blog</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cybersecurity Training Platform Strategy</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
-    <h1>My Experience with Multnomah Falls</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>Cybersecurity Training Platform Strategy</h1>
+      <nav>
+        <ul>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#design">Systems Design</a></li>
+          <li><a href="#content">Information Architecture</a></li>
+          <li><a href="#ux">UX & Visual Design</a></li>
+          <li><a href="#security">Security & Ethics</a></li>
+          <li><a href="#references">References</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="home" class="hero">
-    <h2>My Experience with the Pacific Northwest</h2>
-    <p>Nature. Solitude. Discovery.</p>
-  </section>
-
-  <section id="blog" class="blog-section">
-    <h2>Latest Blog Posts</h2>
-    <div class="blog-grid">
-      <!-- Repeat this div for each post -->
-      <div class="blog-card">
-        <img src="https://images.unsplash.com/photo-1529467142715-cb6f6e7d5d5b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGFjaWZpYyUyMG5vcnRod2VzdHxlbnwwfHwwfHx8MA%3D%3D" alt="PNW Trail">
-        <h3>Multnomah Falls</h3>
-        <p>Multnomah Falls is a waterfall on Multnomah Creek in Oregon's Columbia River Gorge, east of Troutdale and between Corbett and Dodson. The waterfall is accessible via the Historic Columbia River Highway and Interstate 84. When I first arrived I was met with the dewey scent of fresh moss, cold water, and fresh air. Depending on where you park your vehicle, you'll walk inside a tunnel that opens up to a small creek/river. But when you look up you'll hear a faint roar, and crackle. As you make your way toward the paved road, you'll be greeted with a tourish shop, a coffe stand, and public restrooms. However on if you continue straight you'll find yourself heading to the steps that begin ascending toward the huge bridge that let's you take in the beautiful view, and feel of the waterfall. The hike is perfect for people of all ages, as it was relatively easy to climb the steps. The real challenge begins when you begin climbing up toward the top of Multnomah Falls. My experience was pleasant, except for when my phone fell into the river and I had the bright idea to go and get it, the water although fresh was extremely cold (that's a given) but good news is I retrieved the phone. Overall, my experience was a very pleasant one and I'd highly recommend multnomah falls to anyone looking for a quick escape.</p>
-        <a href="#">Read More</a>
-      </div>
+  <section id="hero">
+    <div class="hero-text">
+      <h2>Building a Secure, Scalable Cybersecurity Training Platform</h2>
+      <p>A digital environment that educates, protects, and evolves</p>
     </div>
   </section>
 
-  <section id="gallery" class="gallery-section">
-    <h2>Gallery</h2>
-    <div class="gallery-grid">
-      <!-- Add your images -->
-      <img src="https://images.unsplash.com/photo-1601781291011-e2691bf418f0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bXVsdG5vbWFoJTIwZmFsbHN8ZW58MHx8MHx8fDA%3D" alt="Mountain view">
-      <img src="https://cdn.shortpixel.ai/spai/q_glossy+w_1542+ret_img/www.timetravelturtle.com/wp-content/uploads/2016/07/Portland-2016-97_new.jpg" alt="Forest trail">
-      <img src="https://oregonisforadventure.com/wp-content/uploads/2023/09/multnomah-falls-behind-benson-bridge-oregon-1024x683.jpg" alt="Waterfall">
-    </div>
-  </section>
+  <main class="container">
+    <section id="project" class="section">
+      <h2>Project Overview: Cybersecurity Training Portal</h2>
+      <p>
+        This project outlines a web-based cybersecurity training portal built for employees across departments in medium to large organizations. The system delivers short, engaging training modules that teach users how to avoid common threats like phishing scams, weak passwords, and insecure browsing practices.
+      </p>
+      <p>
+        The platform uses role-based learning paths tailored to departments such as HR, finance, and IT. Progress tracking, automated reminders, and interactive quizzes help reinforce key lessons. The goal is to create a secure, scalable environment where employees improve digital habits without feeling overwhelmed.
+      </p>
+    </section>
 
-  <section id="about" class="about-section">
-    <h2>About Me</h2>
-    <p>Hi, I’m Juan. I created this site to document my journey through the Pacific Northwest—its misty forests, rugged coastline, and soul-soothing mountains. All content here is from my personal travels.</p>
-  </section>
+    <section id="design" class="section">
+      <h2>Systems Design, Engineering & Organization</h2>
+      <img src="images/system-design.jpg" alt="System design diagram" />
+      <p>
+        The architecture is built with modular services: user authentication, content delivery, and analytics each run independently. This keeps the platform easy to maintain and scale. Infrastructure as code ensures that test and production environments match, reducing errors during updates.
+      </p>
+      <p>
+        Monitoring tools track uptime, usage, and bottlenecks. If one module fails, others stay online. A DevOps pipeline automatically builds, tests, and deploys new versions, keeping updates frequent and safe. Small, focused teams own each module, from development through long-term maintenance.
+      </p>
+    </section>
 
-  <section id="contact" class="contact-section">
-    <h2>Contact</h2>
-    <p>You can reach me at: <a href="mailto:juan@example.com">juan@example.com</a></p>
-  </section>
+    <section id="content" class="section">
+      <h2>Content & Information Architecture</h2>
+      <img src="images/information-architecture.jpg" alt="Information architecture illustration" />
+      <p>
+        Clear information architecture keeps users engaged and confident. Courses are grouped by role and difficulty. New content is tagged with metadata so filters and search tools quickly find what users need.
+      </p>
+      <p>
+        Key actions—starting a course, resuming progress, or viewing scores—are always one click away. Pages follow a consistent pattern so employees know where to look, even when topics vary. Regular audits remove outdated content and make room for updated material.
+      </p>
+    </section>
+
+    <section id="ux" class="section">
+      <h2>User Experience & Visual Design</h2>
+      <img src="images/ux-design.jpg" alt="UX wireframe sketch" />
+      <p>
+        The platform is designed to feel simple from day one. First-time users can sign in, see their assigned courses, and start learning in under a minute. Interfaces are mobile-friendly, with readable fonts and touch-friendly buttons.
+      </p>
+      <p>
+        High-contrast color schemes support low-vision users. Icons, progress bars, and clear labels make navigation feel natural. Before major updates, users test prototypes and give feedback to improve clarity and usability.
+      </p>
+    </section>
+
+    <section id="security" class="section">
+      <h2>Security & Ethics</h2>
+      <img src="images/security.jpg" alt="Security shield graphic" />
+      <p>
+        Security and ethics are core to the platform. All accounts use strong, encrypted authentication. Sensitive data like quiz scores and training progress are stored securely, never shared, and automatically deleted after a retention period.
+      </p>
+      <p>
+        Users are only tracked for completion metrics—never behavior beyond what’s necessary for learning. All tracking is transparent. Features are reviewed with one question in mind: <em>Would users feel comfortable if they saw how this works?</em> If not, it doesn’t ship.
+      </p>
+    </section>
+
+    <section id="references" class="section">
+      <h2>References</h2>
+      <ol>
+        <li>Arango, J. (2018). <em>Living in Information: Responsible Information Architecture</em>. Rosenfeld Media.</li>
+        <li>Augusta University Online. (2025). <em>Cybersecurity ethics: Why they matter</em>. https://www.augusta.edu/online/blog/cybersecurity-ethics</li>
+        <li>CareerFoundry. (2025, March 12). <em>A beginner’s guide to information architecture</em>. https://careerfoundry.com/en/blog/ux-design/a-beginners-guide-to-information-architecture/</li>
+        <li>GeeksforGeeks. (2024, December 18). <em>What is system design? Learn system design</em>. https://www.geeksforgeeks.org/what-is-system-design-learn-system-design/</li>
+        <li>Interaction Design Foundation. (2025). <em>The relationship between visual design and user experience design</em>. https://www.interaction-design.org/literature/article/the-relationship-between-visual-design-and-user-experience-design</li>
+        <li>MIT Department of Aeronautics and Astronautics. (2025). <em>Systems design & engineering</em>. https://aeroastro.mit.edu/research-areas/systems-design-engineering/</li>
+      </ol>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Juan's PNW Vlog</p>
+    <p>&copy; 2025 Cybersecurity Training Platform Strategy</p>
   </footer>
-
 </body>
 </html>
